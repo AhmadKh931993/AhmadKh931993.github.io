@@ -21,7 +21,7 @@ body.hov #curF{opacity:0;}
 nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:28px 60px;display:flex;justify-content:space-between;align-items:center;mix-blend-mode:difference;}
 .logo{font-family:'Syne',sans-serif;font-weight:800;font-size:17px;letter-spacing:-.02em;color:var(--text);text-decoration:none;}
 .nav-links{display:flex;gap:40px;list-style:none;}
-.nav-links a{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--text);text-decoration:none;opacity:.5;transition:opacity .3s;}
+.nav-links a{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--text);text-decoration:none;opacity:.5;transition:opacity .3s;}
 .nav-links a:hover{opacity:1;}
 
 /* Hero */
@@ -36,7 +36,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:28px 60px;display:fl
   pointer-events:none;
 }
 .p-hero-brand{
-  font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  font-size:13px;letter-spacing:.2em;text-transform:uppercase;
   color:var(--accent);margin-bottom:16px;
   opacity:0;animation:fadeUp .7s ease .2s forwards;
 }
@@ -55,8 +55,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:28px 60px;display:fl
   padding-top:40px;border-top:1px solid var(--border);
   opacity:0;animation:fadeUp .8s ease .65s forwards;
 }
-.meta-l{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:rgba(240,237,230,.3);margin-bottom:7px;}
-.meta-v{font-size:14px;font-weight:500;letter-spacing:.01em;}
+.meta-l{font-size:13px;letter-spacing:.15em;text-transform:uppercase;color:rgba(240,237,230,.3);margin-bottom:7px;}
+.meta-v{font-size:15px;font-weight:500;letter-spacing:.01em;}
 
 /* Body */
 .p-body{max-width:800px;margin:0 auto;padding:80px 60px;}
@@ -107,14 +107,14 @@ nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:28px 60px;display:fl
 .stat-card:only-child{border-radius:12px;border-right:1px solid var(--border);}
 .stat-card:hover{background:#161616;}
 .stat-card .n{font-family:'Syne',sans-serif;font-size:clamp(16px,2vw,26px);font-weight:800;color:var(--accent);letter-spacing:-.03em;line-height:1.1;margin-bottom:8px;word-break:break-word;}
-.stat-card .l{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(240,237,230,.35);}
+.stat-card .l{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:rgba(240,237,230,.35);}
 
 /* Back button */
 .back{display:flex;justify-content:center;padding:60px 0 80px;}
 .btn-back{
   display:inline-flex;align-items:center;gap:10px;padding:17px 38px;
   border:1px solid rgba(240,237,230,.15);border-radius:100px;
-  font-size:13px;letter-spacing:.04em;color:var(--text);text-decoration:none;cursor:none;
+  font-size:15px;letter-spacing:.04em;color:var(--text);text-decoration:none;cursor:none;
   transition:background .3s,border-color .3s,color .3s;
 }
 .btn-back:hover{background:var(--accent);border-color:var(--accent);color:#080808;}
@@ -122,7 +122,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:28px 60px;display:fl
 @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
 
 footer{padding:24px 60px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--border);}
-footer p{font-size:11px;letter-spacing:.05em;color:rgba(240,237,230,.2);}
+footer p{font-size:15px;letter-spacing:.05em;color:rgba(240,237,230,.2);}
 
 /* Reveal */
 .r{opacity:0;transform:translateY(30px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1);}
@@ -160,11 +160,11 @@ footer p{font-size:11px;letter-spacing:.05em;color:rgba(240,237,230,.2);}
   border-radius:0 10px 10px 0;
 }
 .p-callout p{font-size:18px;line-height:1.7;color:var(--text);margin:0;font-style:italic;}
-.p-callout cite{display:block;margin-top:14px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-style:normal;}
+.p-callout cite{display:block;margin-top:14px;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-style:normal;}
 
 /* Section label (small uppercase above h2) */
 .p-section-label{
-  font-size:10px;letter-spacing:.2em;text-transform:uppercase;
+  font-size:13px;letter-spacing:.2em;text-transform:uppercase;
   color:var(--accent);margin-bottom:10px;display:block;
 }
 
@@ -178,12 +178,12 @@ footer p{font-size:11px;letter-spacing:.05em;color:rgba(240,237,230,.2);}
   display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:36px;
 }
 .p-role-col h4{
-  font-size:10px;letter-spacing:.18em;text-transform:uppercase;
+  font-size:13px;letter-spacing:.18em;text-transform:uppercase;
   color:var(--accent);margin-bottom:20px;
 }
 .p-role-col ul{list-style:none;padding:0;margin:0;}
 .p-role-col ul li{
-  font-size:13px;line-height:1.7;color:var(--dim);
+  font-size:15px;line-height:1.7;color:var(--dim);
   padding-left:0;margin-bottom:4px;
 }
 .p-role-col ul li::before{display:none;}
