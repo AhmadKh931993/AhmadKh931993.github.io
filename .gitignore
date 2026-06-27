@@ -1,3 +1,5 @@
 .DS_Store
 Thumbs.db
 *.pdf
+.claude/
+serve.py
